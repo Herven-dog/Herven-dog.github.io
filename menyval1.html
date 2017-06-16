@@ -1,0 +1,83 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Righteous" rel="stylesheet">
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        
+
+         <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Min hästsida</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Fakta</a></li>
+                        <li><a href="menyval2.html">Favorit ponny</a></li>
+                        <li><a href="menyvak3.html">Scratch</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+
+    <h1>Fakta om hästar</h1>
+
+    <p>Det finns hästar  och ponnys.</p>
+    <p>Ponnys är mindre än hästar.</p>
+    <p>Det finns föl som är bebisar, sto som är tjej och hingst som är kille.</p>
+
+    <ul>
+
+    <li>det här är några raser som finns:</li>
+    <li>Arabhäst/Arabponny</li>
+    <li>Fullblodshästar</li>
+    <li>Arbetshästar</li>
+    <li>Bergs-och hedponnyer</li>
+
+    <p>Om en häst/ponny har öronen backåt så är den arg</p>
+    <p>Om en häst/ponny rör öronen fram och tillbaks så lysnar den</p>
+    <p>Om en häst/ponny har öronen framåt så är den glad</p> 
+
+    <p>Det man sitter på som ligger på hästens rygg heter sadel</p>
+    <p>Det som hästen/ponnyn har i munen heter träns</p>
+
+
+
+
+    </ul>
+    <img src="bilder/hast2.jpg" id="hast2">
+    <img src="bilder/hast5.jpg"> 
+          
+    </main>
+</body>
+</html>

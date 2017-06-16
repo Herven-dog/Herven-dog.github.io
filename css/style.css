@@ -1,0 +1,69 @@
+h1{
+	color:#ff0284;
+	font-weight: bold;
+}
+
+
+body{background:#4ef4ec;
+}
+
+.navbar-inverse .navbar-brand{
+	background:#ff0284;
+	color:#4ef4ec;
+	font-family: 'Pacifico', cursive;
+font-family: 'Righteous', cursive;
+}
+
+.navbar-inverse{
+	background:#ff0284;
+}
+
+.navbar-inverse .navbar-nav li a{
+	color:#4ef4ec;
+	font-family: 'Righteous', cursive;
+}
+
+#hast3{
+	width:100%;
+}
+
+#hast6{
+	width:28%;
+}
+
+#hast7{
+	width:20%;
+}
+
+#hast8{
+	float:right;
+	width:20%;
+	margin-right:5%;
+}
+
+main{
+	text-align: center;
+}
+
+#hast2{
+	width:250px;
+}
+
+#hast4{
+	width:250px;
+}
+
+ul{
+	text-align: center;
+	list-style-position: inside;
+}
+
+.favorit-ponny{
+	margin-right: 50px;
+	
+}
+
+#game{
+	margin-left: 20%;
+}
+
